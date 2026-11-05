@@ -1,0 +1,19 @@
+# Python environments and generated files
+.venv/
+.venv_*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local model downloads and caches
+/.ultralytics/
+/.cache/
+/models/*
+!/models/FoodSeg103/
+!/models/FoodSeg103/best_model.pth
+!/models/FoodSeg103/labels_config.json
+**/.cache/
+
+# Local configuration and logs
+.env
+*.log
